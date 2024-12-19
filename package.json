@@ -1,14 +1,32 @@
 {
-  "name": "szymonraczka.com",
+  "name": "maker-journal-astro",
+  "version": "0.1.0",
+  "description": "A minimalist blog theme for Astro that helps you document your authentic maker journey",
   "type": "module",
-  "version": "0.0.1",
+  "author": "Szymon Rączka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/screenfluent/maker-journal-astro"
+  },
+  "keywords": [
+    "astro-theme",
+    "astro",
+    "blog",
+    "minimalist",
+    "maker",
+    "journal",
+    "documentation",
+    "writing"
+  ],
   "scripts": {
     "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.0.9"
+    "astro": "^5.1.0"
   }
 }
